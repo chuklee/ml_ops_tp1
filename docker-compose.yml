@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .
+    ports:
+      - "4872:4872"
